@@ -1,0 +1,47 @@
+//content feeds
+#content{
+    clear:both;
+    height:100%;
+    width: 100%;
+    position:absolute;
+    background:black;
+    padding-top:7px;
+    padding-bottom:5px;
+    
+}
+
+
+//clients slide
+.media{
+    width: 74.6%;
+    height:75.5%;
+    float: left;
+    overflow:hidden;
+   
+    .slider{
+        overflow:hidden;
+        height:75.5%;
+    }
+
+
+
+.slider-wrapper {
+	width: 100%;
+	height: 738px;
+    position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+    transition: opacity 3s linear;
+    background: url('../images/bluebg2.png');
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+}
